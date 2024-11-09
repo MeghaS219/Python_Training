@@ -5,4 +5,6 @@ try:
     print(result)
 except ZeroDivisionError as e:
     print('you cannot divide by 0')
+except Exception as e:
+    print('error')
 print('completed successfully')
