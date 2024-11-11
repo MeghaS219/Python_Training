@@ -1,6 +1,6 @@
 import pandas as pd
 
-data=pd.read_csv(r"C:\Users\Administrator\Documents\UST Training\Python-Training\Titanic\titanic.csv")
+data=pd.read_csv(r"C:\Users\Administrator\Desktop\Python_Training\UST_TRAINING\Titanic\titanic.csv")
 # print(data.head())
 # print(data['Age'].head())
 
