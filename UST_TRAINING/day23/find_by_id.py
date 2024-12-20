@@ -11,7 +11,7 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.get("https://www.github.com/login")
 
 search_box_username = driver.find_element(By.ID, "login_field")
-search_box_username.send_keys("anlinalbert/pgm")
+search_box_username.send_keys("meghasoman/pgm")
 
 search_box_password = driver.find_element(By.ID, "password")
 search_box_password.send_keys("mypass")
