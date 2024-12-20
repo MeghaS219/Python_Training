@@ -11,7 +11,7 @@ driver = webdriver.Firefox(service=Service(GeckoDriverManager().install()))
 driver.get("https://www.demo.guru99.com/test/delete_customer.php")
 
 search_box_username = driver.find_element(By.NAME, "cusid")
-search_box_username.send_keys("anlinalbert/pgm")
+search_box_username.send_keys("meghasoman/pgm")
 search_box_username.send_keys(Keys.RETURN)
 
 # Handling alert
